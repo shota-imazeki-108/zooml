@@ -24,4 +24,4 @@ class TestRandomForestClassifierModel:
 
     def test_predict_score(self):
         output = self.model.predict(self.valid_X)
-        assert accuracy_score(self.valid_y, output) > 0.9  # BaseLine Score
+        assert accuracy_score(self.valid_y, output) > 0.90  # BaseLine Score
